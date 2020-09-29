@@ -15,3 +15,9 @@
             3. HTML => Hyper Text Markup Language.
             4. CSS  => Cascade Style Sheets.
             http://line-mode.cern.ch/www/hypertext/WWW/Tools/HTMLGeneration/Overview.html
+***Clase#3***
+    ***¿Qué son y para qué nos sirven HTML y CSS?***
+        HTML => Es un lenguaje de marcado usado para decirle a tu navegador cómo estructurar las páginas web que visitas. No es un lenguaje de programación.
+        CSS  => Es un lenguaje que nos permite crear páginas web con un diseño agradable para los usuarios. Tampoco es un lenguaje de programación.
+        https://htmlreference.io/ => Muestra todos los elementos que podemos usar en html.
+        https://cssreference.io/  => Muestra todos los elementos que podemos usar en css.
