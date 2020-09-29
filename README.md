@@ -42,3 +42,34 @@
             3. El DOM se une con el CSSOM para crear el Render Tree.
             4. Se aplican los estilos CSS en el Render Tree.
             5. Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web.
+***Clase#5***
+    ***5 tips para aprender CSS***
+        ***1. Identificar los diferentes selectores que se pueden usar.***
+                Universal => * {
+                                margin: 0;
+                            }
+                Tipo     => h1 {
+                                color: red;
+                            }
+                Clase    => .saludo {
+                                font-size: 2em;
+                            }
+                Id       => #id {
+                                border-radius: 20px;
+                            }
+        ***2. Conecer la anatomía para declarar codigó css.***
+                Selector
+                    p   { propiedad
+                            color  :  red;
+                                    Valor
+                    }  
+                |____________Declaración____________|
+        ***3. Compresión del modelo de caja.***
+            Margin
+                Border
+                    Padding
+                        Content
+                            https://devcode.la/tutoriales/modelo-caja-css/
+        ***4. Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.***
+            https://flexboxfroggy.com/#es => Practicar Flexbox.
+        ***5. Practica***
