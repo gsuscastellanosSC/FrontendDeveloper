@@ -95,4 +95,26 @@
     ***Anatomía de un Documento HTML: DOCTYPE, html, head y body***
         Identar es importante para identificar los elementos en el archivo .html.
         <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.
-        
+***Clase#8***
+    ***Funciones de las etiquetas HTML más importantes***
+        <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
+        <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
+        <head></html> => En el heada siempre vamos a encontrar los metadatos(que se escriben con la etiqueta vacía <mesta>) del documento que vamos a escribir, incluyendo también enlaces(que por los general son de nuestro archivo de estilos, fuentes..).
+        <meta> => Define los metadatos que no pueden ser definidos usando otro elemento HTML, como por ejemplo el tipo de codificación UTF-8.
+        <title></title> => Aquí definimos el título de nuestro documento, sólo puede contener texto y se muestra en la pestaña de la página.
+        <body></body> => Es la única etiqueta body que debe aparacer en nuestro documento y representa todo el contenido principal. Aquí es donde escribimos las etiquetas <div>, <h1>, <p>, <footer>...
+            <body>
+                <h1>
+                </h1>
+                <h2>
+                </h2>
+                <div>
+                    <p></p>
+                </div>
+                .
+                .
+                .
+                <footer></footer>
+            </body>
+        <ol></ol> => Describe una lista ordenada.
+        <ul></ul> => Describe una lista desordenada.
