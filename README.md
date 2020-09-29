@@ -91,3 +91,8 @@
             Los atributos nos permiten definir características especiales para nuestros elementos: <etiqueta atributo=""valor del atributo"">. Por ejemplo: <h1 class=""saludo"">.
         ***También existen elementos vacíos.***
             Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: <img src=""puppy.png"" alt="Descripción en caso de que la imagen no se pueda ver"mi mascota"">.
+***Clase#7***
+    ***Anatomía de un Documento HTML: DOCTYPE, html, head y body***
+        Identar es importante para identificar los elementos en el archivo .html.
+        <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.
+        
