@@ -194,3 +194,29 @@
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
             * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
+***Class#14**
+    ***Modelo de caja**
+        ***Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos***
+            ________________________________
+            |margin                         |
+            |   ____________________________|
+            |   |Border                     |
+            |   |    _______________________|
+            |   |   |padding                |  
+            |   |   |                       |
+            |   |   |   ____________________|
+            |   |   |   |Content            |
+            |___|___|___|___________________|
+                        margin-top
+                        _________
+                        |   12    |
+                        |    |    |
+            margin-left |9   .__ 3| margin-right
+                        |         |
+                        |____6____|
+                        margin-bottom
+        ***links***
+        * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+        * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+        * https://picular.co/Video
+        * https://colorhunt.co/ (Como combinan los colores).Clase#9
