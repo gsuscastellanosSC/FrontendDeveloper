@@ -123,5 +123,11 @@
         Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
 
         La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
-
-Clase#9
+***Clase#10**
+    ***Tipos de errores en HTML, debugging y servicio de validación de etiquetas***
+        ***Errores sintácticos***
+            Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
+        ***Errores lógicos*** 
+            En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
+    ***Links**
+        https://validator.w3.orgClase#9
