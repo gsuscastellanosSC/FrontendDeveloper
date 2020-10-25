@@ -135,5 +135,19 @@
     ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
         ***Solución de reto***
             Clase#11.html
-
-     Clase#9
+***Clase#12**
+    ***Anatomía de una declaración CSS: Selectores, Propiedades y Valores***
+        ***Nuestros estilos con CSS se componen de:***
+            ***Selector***
+                  Son la referencia a los elementos HTML que queremos estilizar. Los nombres de estas etiquetas van seguidas de una llave de apertura y otra de cierre ({}). 
+                  ***Por ejemplo***
+                    h1 {}
+            ***Propiedades***
+                  Las propiedades deben estar dentro de las llaves del selector que definimos anteriormente. Podemos escribir diferentes propiedades en un mismo selector. 
+                  ***Por ejemplo***
+                     h1 { color: }
+            ***Valores***
+                  Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). 
+                  ***Por ejemplo***
+                      h1 { color: red; }
+Clase#9
