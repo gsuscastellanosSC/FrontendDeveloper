@@ -194,7 +194,7 @@
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
             * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
-***Class#14**
+***Class#14***
     ***Modelo de caja**
         ***Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos***
             ________________________________
@@ -216,7 +216,16 @@
                         |____6____|
                         margin-bottom
         ***links***
-        * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
-        * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
-        * https://picular.co/Video
-        * https://colorhunt.co/ (Como combinan los colores).Clase#9
+            * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+            * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+            * https://picular.co/Video
+            * https://colorhunt.co/ (Como combinan los colores).
+***Class#15***
+    ***Valores relativos y absolutos***
+        ***Los valores absolutos***
+            Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la medida de otra unidad.
+        ***Los valores relativos***
+            Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.
+    ***Links***
+        * https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e (more colors).
+        Clase#9
