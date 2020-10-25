@@ -131,3 +131,9 @@
             En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
     ***Links**
         https://validator.w3.orgClase#9
+***Clase#11**
+    ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
+        ***Solución de reto***
+            Clase#11.html
+
+     Clase#9
