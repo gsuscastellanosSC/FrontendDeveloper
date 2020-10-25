@@ -2,7 +2,7 @@
     https://platzi.com/clases/1640-frontend-developer/21874-presentacion-y-bienvenida-al-curso-de-html-y-css/
 ***Class#1**
     ***Presentación y bienvenida al curso de HTML y CSS***
-***Clase#2**
+***Class#2**
     ***HTML y CSS: definición y usos***
         ***Historia***
             Interconnected + Network
@@ -15,13 +15,13 @@
             3. HTML => Hyper Text Markup Language.
             4. CSS  => Cascade Style Sheets.
             http://line-mode.cern.ch/www/hypertext/WWW/Tools/HTMLGeneration/Overview.html
-***Clase#3***
+***Class#3***
     ***¿Qué son y para qué nos sirven HTML y CSS?***
         HTML => Es un lenguaje de marcado usado para decirle a tu navegador cómo estructurar las páginas web que visitas. No es un lenguaje de programación.
         CSS  => Es un lenguaje que nos permite crear páginas web con un diseño agradable para los usuarios. Tampoco es un lenguaje de programación.
             https://htmlreference.io/ => Muestra todos los elementos que podemos usar en html.
             https://cssreference.io/  => Muestra todos los elementos que podemos usar en css.
-***Clase#4***
+***Class#4***
     ***DOM, CSSOM, Render Tree y el proceso de renderizado de la Web***
         ***DOM => Document Object Model.***
             Es una transformación del código HTML escrito por nosotros a objetos entendibles para el navegador.
@@ -42,7 +42,7 @@
             3. El DOM se une con el CSSOM para crear el Render Tree.
             4. Se aplican los estilos CSS en el Render Tree.
             5. Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web.
-***Clase#5***
+***Class#5***
     ***5 tips para aprender CSS***
         ***1. Identificar los diferentes selectores que se pueden usar.***
                 Universal => * {
@@ -73,7 +73,7 @@
         ***4. Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.***
             https://flexboxfroggy.com/#es => Practicar Flexbox.
         ***5. Practica***
-***Clase#6***
+***Class#6***
     ***Anatomía de un Elemento HTML: Atributos, Anidamiento y Elementos vacíos***
         ***Algunos Elementos Html***
             h1 Titulo principal
@@ -91,11 +91,11 @@
             Los atributos nos permiten definir características especiales para nuestros elementos: <etiqueta atributo=""valor del atributo"">. Por ejemplo: <h1 class=""saludo"">.
         ***También existen elementos vacíos.***
             Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: <img src=""puppy.png"" alt="Descripción en caso de que la imagen no se pueda ver"mi mascota"">.
-***Clase#7***
+***Class#7***
     ***Anatomía de un Documento HTML: DOCTYPE, html, head y body***
         Identar es importante para identificar los elementos en el archivo .html.
         <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.
-***Clase#8***
+***Class#8***
     ***Funciones de las etiquetas HTML más importantes***
         <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
         <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
@@ -118,12 +118,12 @@
             </body>
         <ol></ol> => Describe una lista ordenada.
         <ul></ul> => Describe una lista desordenada.
-***Clase#9***
+***Class#9***
     ***La importancia del código semántico***
         Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
 
         La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
-***Clase#10**
+***Class#10**
     ***Tipos de errores en HTML, debugging y servicio de validación de etiquetas***
         ***Errores sintácticos***
             Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
@@ -131,11 +131,11 @@
             En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
     ***Links**
         https://validator.w3.orgClase#9
-***Clase#11**
+***Class#11**
     ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
         ***Solución de reto***
             Clase#11.html
-***Clase#12**
+***Class#12**
     ***Anatomía de una declaración CSS: Selectores, Propiedades y Valores***
         ***Nuestros estilos con CSS se componen de:***
             ***Selector***
@@ -150,7 +150,7 @@
                   Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). 
                   ***Por ejemplo***
                       h1 { color: red; }
-***Clase#13**
+***Class#13**
     ***Tipos de selectores, pseudo-clases y pseudo-elementos***
         ***(asterisco)***
             Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.        
@@ -165,7 +165,7 @@
                 *h1{
                    height:20px;
                 }
-        ***Clase***
+        ***Class***
             Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
             ***Por ejemplo**
                 .NameClass {
