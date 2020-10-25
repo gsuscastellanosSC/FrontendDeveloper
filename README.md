@@ -150,4 +150,47 @@
                   Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). 
                   ***Por ejemplo***
                       h1 { color: red; }
-Clase#9
+***Clase#13**
+    ***Tipos de selectores, pseudo-clases y pseudo-elementos***
+        ***(asterisco)***
+            Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.        
+            ***Por ejemplo***
+                * {
+                   margin: 0;
+                }
+        ***Tipo***
+            Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicaran a la etiqueta que queremos.
+            ***Por ejemplo***
+                p, body, html, div, etc.
+                *h1{
+                   height:20px;
+                }
+        ***Clase***
+            Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
+            ***Por ejemplo**
+                .NameClass {
+                    color:green;
+                }
+        ***ID***
+            Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar solo ese elemento.
+            ***Por ejemplo**
+                #NameId {
+                     color:green;
+                 }
+        ***Las Pseudo-clases y Pseudo-elementos***
+             Nos permiten ser aún más específicos con qué elemento o partes de nuestros elementos deben recibir los estilos.
+             Para usarlas debemos definir el selector base (por ejemplo, p ) seguido de dos puntos y la pseudo-clase que queremos estilizar (por ejemplo: p:first-child). En el caso de los pseudo-elementos debemos usar el dos puntos 2 veces (p::first-letter).
+             ***Por ejemplo***
+                p:first-child{
+                    color: white;
+                }
+                p:last-child {
+                    color: purple;
+                }
+                p:nth-child(2n) {
+                    color: red;
+                }         
+        ***Links**
+            * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+            * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+            * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
