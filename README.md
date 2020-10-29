@@ -193,7 +193,7 @@
         ***Links**
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
-            * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html (emojis)
+            * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
 ***Class#14***
     ***Modelo de caja**
         ***Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos***
@@ -228,4 +228,4 @@
             Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.
     ***Links***
         * https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e (more colors).
-Class#1
+        Clase#9
