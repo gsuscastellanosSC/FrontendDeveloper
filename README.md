@@ -1,101 +1,103 @@
-# CursoDeFrontendDeveloper
-    https://platzi.com/clases/1640-frontend-developer/21874-presentacion-y-bienvenida-al-curso-de-html-y-css/
-***Class#1**
-    ***Presentación y bienvenida al curso de HTML y CSS***
-***Class#2**
-    ***HTML y CSS: definición y usos***
-        ***Historia***
-            Interconnected + Network
-                        =
-                    Internet
-            Tim Berners-Lee Fue el inventar de la Word Wide Web Y fundador de la W3C.
-        ***Tecnologías que dieron paso al internet**
-            1. HTTP => Hyper Text Transfer Protocol.
-            2. URL  => Uniform Resource Locator.
-            3. HTML => Hyper Text Markup Language.
-            4. CSS  => Cascade Style Sheets.
-            http://line-mode.cern.ch/www/hypertext/WWW/Tools/HTMLGeneration/Overview.html
-***Class#3***
-    ***¿Qué son y para qué nos sirven HTML y CSS?***
-        HTML => Es un lenguaje de marcado usado para decirle a tu navegador cómo estructurar las páginas web que visitas. No es un lenguaje de programación.
-        CSS  => Es un lenguaje que nos permite crear páginas web con un diseño agradable para los usuarios. Tampoco es un lenguaje de programación.
-            https://htmlreference.io/ => Muestra todos los elementos que podemos usar en html.
-            https://cssreference.io/  => Muestra todos los elementos que podemos usar en css.
-***Class#4***
-    ***DOM, CSSOM, Render Tree y el proceso de renderizado de la Web***
-        ***DOM => Document Object Model.***
-            Es una transformación del código HTML escrito por nosotros a objetos entendibles para el navegador.
-        ***CSSOM => CSS Object Model*** 
-            Así como el DOM para el HTML, EL CSSOM es una representación de objetos de nuestros estilos en CSS.
-            https://developer.mozilla.org/es/docs/Web/API/CSS_Object_Model
-        ***Render Tree*** 
-            Es la unión entre el DOM y el CSSOM para renderizar todo el código de nuestra página web.
-        ***Pasos de la transformación que hace el navegador***
-            1. Bytes.     => 01110011101....
-            2. Characters => Utf8,...
-            3. Tokens.    => Etiquetas Html.
-            4. Nodes.     => Objetos que interpreta el navegador y donde esta el contenido de los elementos.
-            5. DOM.       => Se dejan todos los elementos en el "arbol" que representa todo el HTML.
-        ***Pasos que sigue el navegador para construir las páginas web:***
-            1. Procesa el HTML para construir el DOM.
-            2. Procesa el CSS para construir el CSSOM.
-            3. El DOM se une con el CSSOM para crear el Render Tree.
-            4. Se aplican los estilos CSS en el Render Tree.
-            5. Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web.
-***Class#5***
-    ***5 tips para aprender CSS***
-        ***1. Identificar los diferentes selectores que se pueden usar.***
-                Universal => * {
-                                margin: 0;
-                            }
-                Tipo     => h1 {
-                                color: red;
-                            }
-                Clase    => .saludo {
-                                font-size: 2em;
-                            }
-                Id       => #id {
-                                border-radius: 20px;
-                            }
-        ***2. Conecer la anatomía para declarar codigó css.***
-                Selector
-                    p   { propiedad
-                            color  :  red;
-                                    Valor
-                    }  
-                |____________Declaración____________|
-        ***3. Compresión del modelo de caja.***
-            Margin
-                Border
-                    Padding
-                        Content
-                            https://devcode.la/tutoriales/modelo-caja-css/
-        ***4. Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.***
-            https://flexboxfroggy.com/#es => Practicar Flexbox.
-        ***5. Practica***
-***Class#6***
-    ***Anatomía de un Elemento HTML: Atributos, Anidamiento y Elementos vacíos***
-        ***Algunos Elementos Html***
-            h1 Titulo principal
-            h2       .
-            h3       .  
-            h4       .  
-            h5       . 
-            h6     Subititulo.
-            ul => No importa el orden.
-        ***Nuestros elementos HTML se componen de:***
-            Etiqueta de apertura: el nombre de nuestra etiqueta encerrado entre símbolos de mayor o menor. Por ejemplo: <h1>.
-            Contenido: dentro de nuestras etiquetas podemos añadir texto u otros elementos HTML, lo que conocemos como anidamiento.
-            Etiqueta de cierre: son casi iguales que las etiquetas de apertura, pero también necesitan un slash (/) antes del nombre de la etiqueta. Por ejemplo: </h1>.
-        ***Las etiquetas de apertura también pueden tener atributos.***
-            Los atributos nos permiten definir características especiales para nuestros elementos: <etiqueta atributo=""valor del atributo"">. Por ejemplo: <h1 class=""saludo"">.
-        ***También existen elementos vacíos.***
-            Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: <img src=""puppy.png"" alt="Descripción en caso de que la imagen no se pueda ver"mi mascota"">.
-***Class#7***
+# 🚨[Curso de Frontend Developer](https://platzi.com/clases/frontend-developer/)🚨
+## ✅Class#1⚡️
+```Presentación y bienvenida al curso de HTML y CSS```
+## ✅Class#2⚡️
+```HTML y CSS: definición y usos```
+* Historia
+    ```Interconnected + Network =Internet```
+    * Tim Berners-Lee Fue el inventar de la Word Wide Web Y fundador de la W3C.
+    * Tecnologías que dieron paso al internet
+        * HTTP => Hyper Text Transfer Protocol.
+        * URL  => Uniform Resource Locator.
+        * HTML => Hyper Text Markup Language.
+        * CSS  => Cascade Style Sheets.
+## ✅Class#3⚡️
+```¿Qué son y para qué nos sirven HTML y CSS?```
+* HTML => Es un lenguaje de marcado usado para decirle a tu navegador cómo estructurar las páginas web que visitas. No es un lenguaje de programación.
+* CSS  => Es un lenguaje que nos permite crear páginas web con un diseño agradable para los usuarios. Tampoco es un lenguaje de programación.
+## ✅Class#4⚡️
+```DOM, CSSOM, Render Tree y el proceso de renderizado de la Web```
+* DOM (Document Object Model):
+    ```Es una transformación del código HTML escrito por nosotros a objetos entendibles para el navegador.```
+* CSSOM (CSS Object Model):
+   ```Así como el DOM para el HTML, EL CSSOM es una representación de objetos de nuestros estilos en CSS.```
+   https://developer.mozilla.org/es/docs/Web/API/CSS_Object_Model
+* Render Tree:
+   ```Es la unión entre el DOM y el CSSOM para renderizar todo el código de nuestra página web.```
+* Pasos de la transformación que hace el navegador:
+   * Bytes.     => 01110011101....
+   * Characters => Utf8,...
+   * Tokens.    => Etiquetas Html.
+   * Nodes.     => Objetos que interpreta el navegador y donde esta el contenido de los elementos.
+   * DOM.       => Se dejan todos los elementos en el "arbol" que representa todo el HTML.
+* Pasos que sigue el navegador para construir las páginas web:
+   * Procesa el HTML para construir el DOM.
+   * Procesa el CSS para construir el CSSOM.
+   * El DOM se une con el CSSOM para crear el Render Tree.
+   * Se aplican los estilos CSS en el Render Tree.
+   * Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web.
+## ✅Class#5⚡️
+```5 tips para aprender CSS```
+* Identificar los diferentes selectores que se pueden usar:
+    ```
+    Universal => * {
+                    margin: 0;
+                }
+    Tipo     => h1 {
+                    color: red;
+                }
+    Clase    => .saludo {
+                    font-size: 2em;
+                }
+    Id       => #id {
+                    border-radius: 20px;
+                }
+    ```
+* Conecer la anatomía para declarar codigó css.
+    ```
+    Selector
+        p   { propiedad
+                color  :  red;
+                        Valor
+        }  
+    |____________Declaración____________|
+    ```
+* Compresión del modelo de caja.
+    ```
+    Margin
+         Border
+             Padding
+                 Content
+                     https://devcode.la/tutoriales/modelo-caja-css/
+    ```
+* Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.[Practicar Flexbox.](https://flexboxfroggy.com/#es)
+## ✅Class#6⚡️
+```Anatomía de un Elemento HTML: Atributos, Anidamiento y Elementos vacíos```
+*   Algunos Elementos Html
+    ```
+    h1 Titulo principal
+    h2       .
+    h3       .  
+    h4       .  
+    h5       . 
+    h6     Subititulo.
+    ul => No importa el orden.
+    ```
+*   Nuestros elementos HTML se componen de:
+    * Etiqueta de apertura: el nombre de nuestra etiqueta encerrado entre símbolos de mayor o menor. Por ejemplo: ```<h1>```.
+    * Contenido: dentro de nuestras etiquetas podemos añadir texto u otros elementos HTML, lo que conocemos como anidamiento.
+    * Etiqueta de cierre: son casi iguales que las etiquetas de apertura, pero también necesitan un slash (/) antes del nombre de la* queta. Por ejemplo: ```</h1>```.
+*  Las etiquetas de apertura también pueden tener atributos.
+ 
+    ```Los atributos nos permiten definir características especiales para nuestros elementos: <etiqueta atributo=""valor del atributo"">.*  ejemplo: <h1 class=""saludo"">.```
+*  También existen elementos vacíos.
+
+    ```Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: <img src=""puppy* "" alt="Descripción en caso de que la imagen no se pueda ver"mi mascota"">.```
+## ✅Class#7⚡️
     ***Anatomía de un Documento HTML: DOCTYPE, html, head y body***
         Identar es importante para identificar los elementos en el archivo .html.
         <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.
-***Class#8***
+## ✅Class#8⚡️
     ***Funciones de las etiquetas HTML más importantes***
         <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
         <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
@@ -118,12 +120,12 @@
             </body>
         <ol></ol> => Describe una lista ordenada.
         <ul></ul> => Describe una lista desordenada.
-***Class#9***
+## ✅Class#9⚡️
     ***La importancia del código semántico***
         Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
 
         La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
-***Class#10**
+## ✅Class#10**
     ***Tipos de errores en HTML, debugging y servicio de validación de etiquetas***
         ***Errores sintácticos***
             Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
@@ -131,11 +133,11 @@
             En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
     ***Links**
         https://validator.w3.orgClase#9
-***Class#11**
+## ✅Class#11**
     ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
         ***Solución de reto***
             Clase#11.html
-***Class#12**
+## ✅Class#12**
     ***Anatomía de una declaración CSS: Selectores, Propiedades y Valores***
         ***Nuestros estilos con CSS se componen de:***
             ***Selector***
@@ -150,7 +152,7 @@
                   Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). 
                   ***Por ejemplo***
                       h1 { color: red; }
-***Class#13**
+## ✅Class#13**
     ***Tipos de selectores, pseudo-clases y pseudo-elementos***
         ***(asterisco)***
             Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.        
@@ -165,7 +167,7 @@
                 *h1{
                    height:20px;
                 }
-        ***Class***
+        ## ✅Class***
             Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
             ***Por ejemplo**
                 .NameClass {
@@ -194,38 +196,39 @@
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
             * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
             * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
-***Class#14***
-    ***Modelo de caja**
-        ***Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos***
-            ________________________________
-            |margin                         |
-            |   ____________________________|
-            |   |Border                     |
-            |   |    _______________________|
-            |   |   |padding                |  
-            |   |   |                       |
-            |   |   |   ____________________|
-            |   |   |   |Content            |
-            |___|___|___|___________________|
-                        margin-top
-                        _________
-                        |   12    |
-                        |    |    |
-            margin-left |9   .__ 3| margin-right
-                        |         |
-                        |____6____|
-                        margin-bottom
-        ***links***
-            * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
-            * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
-            * https://picular.co/Video
-            * https://colorhunt.co/ (Como combinan los colores).
-***Class#15***
-    ***Valores relativos y absolutos***
-        ***Los valores absolutos***
-            Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la medida de otra unidad.
-        ***Los valores relativos***
-            Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.
-    ***Links***
-        * https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e (more colors).
-        Clase#9
+## ✅Class#14⚡️
+* Modelo de caja:
+    ``` Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos```
+    
+        ________________________________
+        |margin                         |
+        |   ____________________________|
+        |   |Border                     |
+        |   |    _______________________|
+        |   |   |padding                |  
+        |   |   |                       |
+        |   |   |   ____________________|
+        |   |   |   |Content            |
+        |___|___|___|___________________|
+                    margin-top
+                    _________
+                    |   12    |
+                    |    |    |
+        margin-left |9   .__ 3| margin-right
+                    |         |
+                    |____6____|
+                    margin-bottom
+* links
+    * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+    * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+    * https://picular.co/Video
+    * https://colorhunt.co/ (Como combinan los colores).
+## ✅Class#15⚡️
+* Valores relativos y absolutos
+* Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
+* Los valores relativos: ```Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.```
+## 🚧Links🚨
+* [More colors](https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e)
+* [Muestra todos los elementos que podemos usar en css.](https://cssreference.io/)
+* [Muestra todos los elementos que podemos usar en html.](https://htmlreference.io/)
+* [HTMLGeneration.](http://line-mode.cern.ch/www/hypertext/WWW/Tools/HTMLGeneration/Overview.html)
