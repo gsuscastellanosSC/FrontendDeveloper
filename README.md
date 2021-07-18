@@ -221,16 +221,15 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
                     |         |
                     |____6____|
                     margin-bottom
-* links
-    * https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
-    * http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
-    * https://picular.co/Video
-    * https://colorhunt.co/ (Como combinan los colores).
 ## ✅Class#15⚡️
 * Valores relativos y absolutos
 * Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
 * Los valores relativos: ```Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.```
 ## 🚧Links🚨
+* https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+* http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+* https://picular.co/Video
+* [Como combinan los colores](https://colorhunt.co/)
 * [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 * [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 * [Emoji-for-copy-and-paste](https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html)
