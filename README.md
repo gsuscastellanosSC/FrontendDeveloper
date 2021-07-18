@@ -100,7 +100,7 @@
 Identar es importante para identificar los elementos en el archivo ```.html <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.```
 ## ✅Class#8⚡️
 ```Funciones de las etiquetas HTML más importantes```
-
+    
     <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
        <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
        <head></html> => En el heada siempre vamos a encontrar los metadatos(que se escriben con la etiqueta vacía <mesta>) del documento    quevamos   a escribir, incluyendo también enlaces(que por los general son de nuestro archivo de estilos, fuentes..).
@@ -129,32 +129,40 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
 ## ✅Class#10⚡️
 ```Tipos de errores en HTML, debugging y servicio de validación de etiquetas```
 * Errores sintácticos:
-
+    ```
     Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
+    ```
 * Errores lógicos:
-    
+    ```
     En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
+    ```
 ## ✅Class#11⚡️
 ```Reto 1: Organiza el siguiente bloque de código de forma semántica```
 * Solución de reto
-    * Clase#11.html
+    ```
+    Clase#11.html
+    ```
 ## ✅Class#12⚡️
 ```Anatomía de una declaración CSS: Selectores, Propiedades y Valores```
-* Nuestros estilos con CSS se componen de:***
+* Nuestros estilos con CSS se componen de:
     * Selector
        Son la referencia a los elementos HTML que queremos estilizar. Los nombres de estas etiquetas van seguidas de una llave de ra    otra de cierre ({}). 
-       ***Por ejemplo***
+       ```
+       Por ejemplo
          h1 {}
+       ```
     * Propiedades
        Las propiedades deben estar dentro de las llaves del selector que definimos anteriormente. Podemos escribir diferentes piedades  mismo selector. 
-       * Por ejemplo
-          
+       ```
+       Por ejemplo 
           h1 { color: }
+        ```
     * Valores
        * Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;
-       * Por ejemplo:
-
-           h1 { color: red; }
+        ```
+            Por ejemplo:
+                h1 { color: red; }
+        ```
 ## ✅Class#13⚡️
 ```Tipos de selectores, pseudo-clases y pseudo-elementos```
 * (asterisco) Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.
@@ -202,7 +210,7 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
 ## ✅Class#14⚡️
 * Modelo de caja:
     ``` Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos```
-    
+    ```
         ________________________________
         |margin                         |
         |   ____________________________|
@@ -221,14 +229,15 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
                     |         |
                     |____6____|
                     margin-bottom
+    ```
 ## ✅Class#15⚡️
 * Valores relativos y absolutos
 * Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
 * Los valores relativos: ```Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.```
 ## 🚧Links🚨
-* https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
-* http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
-* https://picular.co/Video
+* [Coolors](https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e)
+* [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+* [Video](https://picular.co/Video)
 * [Como combinan los colores](https://colorhunt.co/)
 * [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 * [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
