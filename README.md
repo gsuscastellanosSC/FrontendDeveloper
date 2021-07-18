@@ -38,7 +38,7 @@
    * Se ““pintan”” los nodos en la pantalla para que los usuarios vean el contenido de la página web.
 ## ✅Class#5⚡️
 ```5 tips para aprender CSS```
-* Identificar los diferentes selectores que se pueden usar:
+1. Identificar los diferentes selectores que se pueden usar:
     ```
     Universal => * {
                     margin: 0;
@@ -53,7 +53,7 @@
                     border-radius: 20px;
                 }
     ```
-* Conecer la anatomía para declarar codigó css.
+2. Conecer la anatomía para declarar codigó css.
     ```
     Selector
         p   { propiedad
@@ -62,7 +62,7 @@
         }  
     |____________Declaración____________|
     ```
-* Compresión del modelo de caja.
+3. Compresión del modelo de caja.
     ```
     Margin
          Border
@@ -70,7 +70,8 @@
                  Content
                      https://devcode.la/tutoriales/modelo-caja-css/
     ```
-* Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.[Practicar Flexbox.](https://flexboxfroggy.com/#es)
+4. Domina como se posicionan los elementos absoluto, relativo, Flexbox y CSS Grid.
+5. [Practicar Flexbox.](https://flexboxfroggy.com/#es)
 ## ✅Class#6⚡️
 ```Anatomía de un Elemento HTML: Atributos, Anidamiento y Elementos vacíos```
 *   Algunos Elementos Html
@@ -94,38 +95,38 @@
 
     ```Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: <img src=""puppy* "" alt="Descripción en caso de que la imagen no se pueda ver"mi mascota"">.```
 ## ✅Class#7⚡️
-    ***Anatomía de un Documento HTML: DOCTYPE, html, head y body***
-        Identar es importante para identificar los elementos en el archivo .html.
-        <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.
+```Anatomía de un Documento HTML: DOCTYPE, html, head y body```
+
+Identar es importante para identificar los elementos en el archivo ```.html <meta charset="UTF-8"> Incluye los símbolos según el lenguaje.```
 ## ✅Class#8⚡️
-    ***Funciones de las etiquetas HTML más importantes***
-        <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
-        <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
-        <head></html> => En el heada siempre vamos a encontrar los metadatos(que se escriben con la etiqueta vacía <mesta>) del documento que vamos a escribir, incluyendo también enlaces(que por los general son de nuestro archivo de estilos, fuentes..).
-        <meta> => Define los metadatos que no pueden ser definidos usando otro elemento HTML, como por ejemplo el tipo de codificación UTF-8.
-        <title></title> => Aquí definimos el título de nuestro documento, sólo puede contener texto y se muestra en la pestaña de la página.
-        <body></body> => Es la única etiqueta body que debe aparacer en nuestro documento y representa todo el contenido principal. Aquí es donde escribimos las etiquetas <div>, <h1>, <p>, <footer>...
-            <body>
-                <h1>
-                </h1>
-                <h2>
-                </h2>
-                <div>
-                    <p></p>
-                </div>
-                .
-                .
-                .
-                <footer></footer>
-            </body>
+```Funciones de las etiquetas HTML más importantes```
+
+    <!DOCTYPE html>  => Aquí definimos que el documento está bajo el estándar HTML5
+       <html lang="es"> => Representa la raíz de nuestro documento HTML. Todos los démas elementos deben ser decendientes de este elemento.
+       <head></html> => En el heada siempre vamos a encontrar los metadatos(que se escriben con la etiqueta vacía <mesta>) del documento    quevamos   a escribir, incluyendo también enlaces(que por los general son de nuestro archivo de estilos, fuentes..).
+       <meta> => Define los metadatos que no pueden ser definidos usando otro elemento HTML, como por ejemplo el tipo de codificación UTF-8.
+       <title></title> => Aquí definimos el título de nuestro documento, sólo puede contener texto y se muestra en la pestaña de la página.
+       <body></body> => Es la única etiqueta body que debe aparacer en nuestro documento y representa todo el contenido principal. Aquí esdonde     escribimos las etiquetas <div>, <h1>, <p>, <footer>...
+           <body>
+               <h1>
+               </h1>
+               <h2>
+               </h2>
+               <div>
+                   <p></p>
+               </div>
+               .
+               .
+               .
+               <footer></footer>
+           </body>
         <ol></ol> => Describe una lista ordenada.
         <ul></ul> => Describe una lista desordenada.
 ## ✅Class#9⚡️
-    ***La importancia del código semántico***
-        Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
-
-        La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
-## ✅Class#10**
+```La importancia del código semántico```
+* Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
+* La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
+## ✅Class#10⚡️
     ***Tipos de errores en HTML, debugging y servicio de validación de etiquetas***
         ***Errores sintácticos***
             Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
@@ -133,11 +134,11 @@
             En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
     ***Links**
         https://validator.w3.orgClase#9
-## ✅Class#11**
+## ✅Class#11⚡️
     ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
         ***Solución de reto***
             Clase#11.html
-## ✅Class#12**
+## ✅Class#12⚡️
     ***Anatomía de una declaración CSS: Selectores, Propiedades y Valores***
         ***Nuestros estilos con CSS se componen de:***
             ***Selector***
