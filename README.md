@@ -208,9 +208,9 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
        }
     ```         
 ## ✅Class#14⚡️
-* Modelo de caja:
-    ``` Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos```
-    ```
+```Modelo de caja```
+
+    Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos:
         ________________________________
         |margin                         |
         |   ____________________________|
@@ -229,7 +229,6 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
                     |         |
                     |____6____|
                     margin-bottom
-    ```
 ## ✅Class#15⚡️
 * Valores relativos y absolutos
 * Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
