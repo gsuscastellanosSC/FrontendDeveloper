@@ -127,76 +127,78 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
 * Es importante que como desarrolladores tengamos claro el significado de escribir código. Debes ser consciente de que la manera en la que codeas tenga sentido.
 * La semántica HTML no es más que darle sentido y estructura a lo que estas escribiendo. Muy importante para el navegador. No todos los elementos deberían ser un div.
 ## ✅Class#10⚡️
-    ***Tipos de errores en HTML, debugging y servicio de validación de etiquetas***
-        ***Errores sintácticos***
-            Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
-        ***Errores lógicos*** 
-            En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
-    ***Links**
-        https://validator.w3.orgClase#9
+```Tipos de errores en HTML, debugging y servicio de validación de etiquetas```
+* Errores sintácticos:
+
+    Son errores de escritura en el código y evitan que el programa funcione. Pueden ser errores de tipado.
+* Errores lógicos:
+    
+    En estos la sintaxis es correcta, pero el código no hace lo que debería. El programa funciona, pero de forma incorrecta.
 ## ✅Class#11⚡️
-    ***Reto 1: Organiza el siguiente bloque de código de forma semántica***
-        ***Solución de reto***
-            Clase#11.html
+```Reto 1: Organiza el siguiente bloque de código de forma semántica```
+* Solución de reto
+    * Clase#11.html
 ## ✅Class#12⚡️
-    ***Anatomía de una declaración CSS: Selectores, Propiedades y Valores***
-        ***Nuestros estilos con CSS se componen de:***
-            ***Selector***
-                  Son la referencia a los elementos HTML que queremos estilizar. Los nombres de estas etiquetas van seguidas de una llave de apertura y otra de cierre ({}). 
-                  ***Por ejemplo***
-                    h1 {}
-            ***Propiedades***
-                  Las propiedades deben estar dentro de las llaves del selector que definimos anteriormente. Podemos escribir diferentes propiedades en un mismo selector. 
-                  ***Por ejemplo***
-                     h1 { color: }
-            ***Valores***
-                  Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;). 
-                  ***Por ejemplo***
-                      h1 { color: red; }
-## ✅Class#13**
-    ***Tipos de selectores, pseudo-clases y pseudo-elementos***
-        ***(asterisco)***
-            Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.        
-            ***Por ejemplo***
-                * {
-                   margin: 0;
-                }
-        ***Tipo***
-            Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicaran a la etiqueta que queremos.
-            ***Por ejemplo***
+```Anatomía de una declaración CSS: Selectores, Propiedades y Valores```
+* Nuestros estilos con CSS se componen de:***
+    * Selector
+       Son la referencia a los elementos HTML que queremos estilizar. Los nombres de estas etiquetas van seguidas de una llave de ra    otra de cierre ({}). 
+       ***Por ejemplo***
+         h1 {}
+    * Propiedades
+       Las propiedades deben estar dentro de las llaves del selector que definimos anteriormente. Podemos escribir diferentes piedades  mismo selector. 
+       * Por ejemplo
+          
+          h1 { color: }
+    * Valores
+       * Son el estilo que queremos que tomen nuestros elementos HTML con respecto a una propiedad. Van seguidas de un punto y coma (;
+       * Por ejemplo:
+
+           h1 { color: red; }
+## ✅Class#13⚡️
+```Tipos de selectores, pseudo-clases y pseudo-elementos```
+* (asterisco) Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML. No es recomendado en aplicaciones muy grandes.
+    ```
+    Por ejemplo:
+        * {
+        margin: 0;
+        }
+    ```
+* Tipo Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicaran a la etiqueta que queremos.
+    ```        
+    Por ejemplo:
                 p, body, html, div, etc.
                 *h1{
                    height:20px;
                 }
-        ## ✅Class***
-            Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
-            ***Por ejemplo**
-                .NameClass {
-                    color:green;
-                }
-        ***ID***
-            Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar solo ese elemento.
-            ***Por ejemplo**
-                #NameId {
-                     color:green;
-                 }
-        ***Las Pseudo-clases y Pseudo-elementos***
-             Nos permiten ser aún más específicos con qué elemento o partes de nuestros elementos deben recibir los estilos.
-             Para usarlas debemos definir el selector base (por ejemplo, p ) seguido de dos puntos y la pseudo-clase que queremos estilizar (por ejemplo: p:first-child). En el caso de los pseudo-elementos debemos usar el dos puntos 2 veces (p::first-letter).
-             ***Por ejemplo***
-                p:first-child{
-                    color: white;
-                }
-                p:last-child {
-                    color: purple;
-                }
-                p:nth-child(2n) {
-                    color: red;
-                }         
-        ***Links**
-            * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-            * https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
-            * https://coolsymbol.com/emojis/emoji-for-copy-and-paste.htmlClase#9
+    ```
+* Class: ```Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.```
+    ```
+    Por ejemplo
+        .NameClass {
+            color:green;
+        }
+    ```
+* ID: ```Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar solo ese elemento.```
+    ```
+    Por ejemplo
+        #NameId {
+             color:green;
+         }
+    ```
+* Las Pseudo-clases y Pseudo-elementos: ```Nos permiten ser aún más específicos con qué elemento o partes de nuestros elementos deben recibir los estilos. Para usarlas debemos definir el selector base (por ejemplo, p ) seguido de dos puntos y la pseudo-clase que queremos estilizar (por ejemplo: p:first-child). En el caso de los pseudo-elementos debemos usar el dos puntos 2 veces (p::first-letter).```
+    ```
+    Por ejemplo
+       p:first-child{
+           color: white;
+       }
+       p:last-child {
+           color: purple;
+       }
+       p:nth-child(2n) {
+           color: red;
+       }
+    ```         
 ## ✅Class#14⚡️
 * Modelo de caja:
     ``` Todos los elementos de HTML tienen un modelo de caja y esta compuesto por cuatro elementos```
@@ -229,6 +231,10 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
 * Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
 * Los valores relativos: ```Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.```
 ## 🚧Links🚨
+* [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+* [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+* [Emoji-for-copy-and-paste](https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html)
+* [Validator](https://validator.w3.org)
 * [More colors](https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e)
 * [Muestra todos los elementos que podemos usar en css.](https://cssreference.io/)
 * [Muestra todos los elementos que podemos usar en html.](https://htmlreference.io/)
