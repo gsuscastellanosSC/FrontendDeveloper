@@ -10,3 +10,25 @@ header img{
     width: 200px;
     margin: 10px 0 0 10px;
 }
+
+a  {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:white;
+    animation: pulse 13s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: rgba(255, 217, 0, 0.712);
+    }
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
