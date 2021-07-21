@@ -294,6 +294,20 @@ outline-width: 5px;
     ```
 * La propiedad position tiene 7 valores diferentes: relative, absolute, fixed, sticky, static, initial e inherit. Veremos de qué se tratan:
 <img src="https://static.platzi.com/media/user_upload/Posicionamiento%20en%20CSS-6477ec29-d5d2-44d0-b3f5-c2876e0ee739.jpg" alt="Posicionamiento en CSS.png">
+
+## ✅Class#19⚡️
+```¿Qué son y para qué nos sirven las arquitecturas CSS?```
+* Objetivos
+    * Predecible
+    * Reutilizable
+    * Mantenible
+    * Escalable
+* Buenas prácticas:
+    * Establecer reglas
+    * Explicar la estrucura base
+    * Establecer estandares de codificación
+    * Evitar largas hojas de estilo
+    * Documentación
 ## 🚧Links🚨
 * [Coolors](https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e)
 * [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
