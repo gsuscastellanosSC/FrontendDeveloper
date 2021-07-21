@@ -233,6 +233,12 @@ Identar es importante para identificar los elementos en el archivo ```.html <met
 * Valores relativos y absolutos
 * Los valores absolutos: ```Centímetros, milímetros, pixeles y pulgadas. Se llaman de esta forma porque no tienen en cuenta a nadie más, no depende de la ida de otra unidad.```
 * Los valores relativos: ```Porcentajes, vmx, em, entre otros. Se llaman de esta forma porque depende de otra unidad de medida o elemento.```
+## ✅Class#16⚡️
+```Displays en CSS```
+
+    Todos los elementos en CSS son cuadrados o rectángulos y aparte de eso, estos elementos tienen un comportamiento que se define a través de la propiedad display. Los display más comunes y usados son: block, inline, inline-block, none, table, flex y grid. Veamos de qué se tratan:
+<img src="https://static.platzi.com/media/user_upload/Display%20en%20CSS-634bc14a-bdf5-4337-a67d-49fc74f92a60.jpg" alt="Display en CSS.png">
+
 ## 🚧Links🚨
 * [Coolors](https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e)
 * [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
